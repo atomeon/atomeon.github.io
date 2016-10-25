@@ -27,7 +27,7 @@
     // gulp.task('build', gulp.series('clean', 'sass'));
     gulp.task('build', ['clean','sass']);
 
-    gulp.watch('scss/app.scss', ['clean','sass']);
+    // gulp.watch('scss/app.scss', ['clean','sass']);
 
     gulp.task('default', ['clean','sass'], function() {
       gulp.watch(['scss/**/*.scss'], ['clean','sass']);
